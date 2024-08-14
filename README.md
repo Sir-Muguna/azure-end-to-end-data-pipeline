@@ -3,7 +3,8 @@
 ## Overview
 This project demonstrates the design and implementation of an end-to-end data pipeline using Azure services. The pipeline ingests, stores, processes, and visualizes data from an on-premise SQL Server to provide actionable insights through Power BI dashboards.
 
-![architecture](./data_engineering/azure-end-to-end-data-pipeline/data_files/architecture.jpg)
+![Architecture Diagram](./data_files/architecture.jpg)
+
 
 
  ## Data Download
