@@ -1,0 +1,104 @@
+
+## Step 1: Create an Azure Account
+
+### 1.1 Sign Up for an Azure Account
+- **Visit the Azure Portal:**
+  - Go to [https://azure.microsoft.com](https://azure.microsoft.com) and click on "Start free" to create a new account.
+  
+- **Sign In or Create a Microsoft Account:**
+  - If you already have a Microsoft account, sign in. If not, follow the prompts to create a new Microsoft account.
+
+- **Provide Billing Information:**
+  - Enter your credit card information for billing. Note that Azure offers a free tier with $200 in credits for the first 30 days.
+
+- **Activate Your Subscription:**
+  - Complete the setup by selecting the subscription type. You’ll have access to various free services and credits to explore Azure.
+
+## Step 2: Create a Resource Group
+
+### 2.1 What is a Resource Group?
+- A resource group is a logical container for Azure resources, allowing you to manage and organize related resources easily.
+
+### 2.2 Create a Resource Group
+- **Navigate to the Azure Portal:**
+  - Go to [https://portal.azure.com](https://portal.azure.com) and sign in.
+
+- **Create a Resource Group:**
+  - In the Azure Portal, click on "Resource groups" from the left-hand menu.
+  - Click on "Create" at the top of the Resource groups page.
+  - Enter a **name** for your resource group (e.g., `DataPipelineRG`).
+  - Select a **region** close to your location for optimal performance.
+  - Click "Review + create," then "Create" to set up the resource group.
+
+## Step 3: Create Azure Resources
+
+### 3.1 Create an Azure Data Factory (ADF)
+- **Navigate to Create a Resource:**
+  - In the Azure Portal, click on "Create a resource" at the top left.
+  
+- **Search for Azure Data Factory:**
+  - Type "Data Factory" in the search bar and select "Azure Data Factory" from the results.
+  
+- **Create the Data Factory:**
+  - Click "Create" and fill in the required details:
+    - **Subscription:** Select your subscription.
+    - **Resource Group:** Choose the resource group created earlier (`DataPipelineRG`).
+    - **Name:** Give your Data Factory a unique name.
+    - **Region:** Choose the same region as your resource group.
+  - Click "Review + create" and then "Create."
+
+### 3.2 Create an Azure Data Lake Storage (ADLS) Account
+- **Navigate to Create a Resource:**
+  - Click on "Create a resource."
+
+- **Search for Storage Account:**
+  - Type "Storage account" in the search bar and select it from the results.
+
+- **Create the Storage Account:**
+  - Click "Create" and fill in the required details:
+    - **Subscription:** Select your subscription.
+    - **Resource Group:** Choose `DataPipelineRG`.
+    - **Storage account name:** Give it a unique name (e.g., `datapipelinelake`).
+    - **Region:** Choose the same region as your resource group.
+    - **Performance:** Select "Standard."
+    - **Replication:** Choose "Locally-redundant storage (LRS)."
+  - Click "Review + create" and then "Create."
+
+### 3.3 Create an Azure Databricks Workspace
+- **Navigate to Create a Resource:**
+  - Click on "Create a resource."
+
+- **Search for Databricks:**
+  - Type "Databricks" in the search bar and select "Azure Databricks" from the results.
+
+- **Create the Databricks Workspace:**
+  - Click "Create" and fill in the required details:
+    - **Subscription:** Select your subscription.
+    - **Resource Group:** Choose `DataPipelineRG`.
+    - **Workspace name:** Provide a unique name.
+    - **Region:** Choose the same region as your resource group.
+    - **Pricing Tier:** Select the tier that fits your requirements (e.g., "Standard").
+  - Click "Review + create" and then "Create."
+
+### 3.4 Create an Azure Synapse Analytics Workspace
+- **Navigate to Create a Resource:**
+  - Click on "Create a resource."
+
+- **Search for Synapse Analytics:**
+  - Type "Synapse Analytics" in the search bar and select it from the results.
+
+- **Create the Synapse Workspace:**
+  - Click "Create" and fill in the required details:
+    - **Subscription:** Select your subscription.
+    - **Resource Group:** Choose `DataPipelineRG`.
+    - **Workspace name:** Provide a unique name.
+    - **Region:** Choose the same region as your resource group.
+  - Click "Review + create" and then "Create."
+
+### 3.5 Set Up Power BI (Optional for Visualization)
+- **Download Power BI Desktop:**
+  - Visit the [Power BI website](https://powerbi.microsoft.com) and download Power BI Desktop.
+
+- **Sign In:**
+  - Open Power BI Desktop and sign in with your Microsoft account.
+
