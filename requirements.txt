@@ -1,6 +1,4 @@
 
-![ResourceGroup](./data_files/resourcegroup.png)
-
  Step 1: Create an Azure Account
 
  1.1 Sign Up for an Azure Account

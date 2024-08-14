@@ -5,6 +5,11 @@ This project demonstrates the design and implementation of an end-to-end data pi
 
 ![Architecture](./data_files/architecture.jpg)
 
+
+## Create a Resource Group
+Check the requirements.txt file for detailed step by step guide.
+![ResourceGroup](./data_files/resourcegroup.png)
+
  ## Data Download
    - **Objective**: Download and restore the AdventureWorksLT2022 sample database to a local on-premises SQL Server.
    - **Steps**:
