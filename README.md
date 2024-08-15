@@ -73,7 +73,7 @@ Check the requirements.txt file for detailed step by step guide.
 ![SQL Views](./data_files/viewsASA.png)
 
 ## 5. Data Visualization
-
+ Check the AdventureWorks2022.pbix file
 ### Tool: Power BI
    - **Tool**: Power BI
    - **Objective**: Create interactive dashboards and reports for data analysis.
