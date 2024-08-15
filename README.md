@@ -82,6 +82,8 @@ Check the requirements.txt file for detailed step by step guide.
      2. Build dashboards to visualize daily, weekly, and monthly sales trends.
      3. Automate the data refresh process in Power BI after ADF triggers the Databricks jobs and loads data into Synapse.
 
+![DataModel](./data_files/adventureworks2022.png)
+
 ![DataModel](./data_files/datamodel.png)
 
 ---
